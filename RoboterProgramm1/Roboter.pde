@@ -1,8 +1,8 @@
 class Roboter
 {
   // Attribute
-  private float x;
-  private float y;
+  float x;
+  float y;
   PImage roboBild;
 
   // Konstruktor
