@@ -1,10 +1,11 @@
 class Roboter
 {
+  // Attribute
   private float x;
   private float y;
   PImage roboBild;
 
-
+  // Konstruktor
   Roboter()
   {
     x = 100;
@@ -13,17 +14,7 @@ class Roboter
     zeichnen();
   }
 
-  Roboter(float y_)
-  {
-    y = y_;
-  }
-
-  Roboter(float x_, float y_)
-  {
-    x = x_;
-    y = y_;
-  }  
-
+  // Methoden
   void zeichnen()
   {
     image(roboBild, x, y);
@@ -38,7 +29,6 @@ class Roboter
   {
     x = x - 10;
   }
-
 
   void geheNachOben()
   {
